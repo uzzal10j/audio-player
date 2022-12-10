@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dp"
+       android:background="@drawable/bottom_shade"
+       >
+       <ImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/bac"
+
+           />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="1"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Song Titel for a song"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Son discription"/>
+
+   </LinearLayout>
+
+       <ImageView
+           android:id="@+id/image_pl1"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/play"
+           android:tag="Not_Play"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/bottom_shade"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/bac"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Song Titel for a song"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Son discription"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_pl2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/play"
+            android:tag="Not_Play2"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
